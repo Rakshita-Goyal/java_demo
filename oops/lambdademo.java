@@ -23,8 +23,7 @@ System.out.println("kiooo");
 });
 //or
 greet(mesg->System.out.println(mesg));
-//or
-greet(lambdademo::new);
+
 }
 
     public static void greet (printer pri){

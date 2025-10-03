@@ -1,6 +1,6 @@
 package generics;
 
-public class make<T> {
+ class make<T> {
      private T value;
 
     public void set(T value) {
@@ -14,7 +14,7 @@ public class make<T> {
 }
 // T is a type parameter
 
-public class maker<T> {
+ class maker<T> {
      private T[] items=(T[])new Object[10];
 private int count=0;
     public void add(T item ) {
@@ -32,7 +32,7 @@ public class Box {
         intBox.set(10);
         System.out.println("Integer Value: " + intBox.get());
 
-        make<String> strBox = new Box<>();
+        make<String> strBox = new make<>();
         strBox.set("Hello Generics");
         System.out.println("String Value: " + strBox.get());
 
