@@ -15,5 +15,10 @@ public class lambda {
         MathOperation multiplication = (a, b) -> a * b;     
         MathOperation division = (a, b) -> a / b;
 
+
+System.out.println(addition.operation(10, 5));       // 15
+        System.out.println(subtraction.operation(10, 5));    // 5
+        System.out.println(multiplication.operation(10, 5)); // 50
+        System.out.println(division.operation(10, 5)); 
     }
 }

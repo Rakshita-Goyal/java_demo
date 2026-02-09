@@ -19,6 +19,7 @@ public sync(String name, Printer printer) {
     this.printer = printer;
 }
 
+
 public void run() {
     printer.printNumbers(getName());
 }

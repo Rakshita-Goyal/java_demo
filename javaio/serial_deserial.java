@@ -54,3 +54,38 @@ public class serial_deserial {
     }
 }
 
+// ✅ SERIALIZATION
+
+// Object → File (byte stream)
+
+// Used when:
+// ✔ Save object state
+// ✔ Send object over network
+// ✔ Store object in DB
+
+// Method:
+
+// out.writeObject(obj);
+
+// ✅ DESERIALIZATION
+
+// File → Object
+
+// Method:
+
+// Student s = (Student) in.readObject();
+
+
+// RANDOMACCESSFILE
+
+// Allows:
+// ✔ Read/write anywhere in file
+// ✔ Jump to any position
+// ✔ Modify part of file
+
+// Methods:
+
+// Method	Meaning
+// seek(n)	Move pointer
+// writeBytes()	Write data
+// read()	Read data

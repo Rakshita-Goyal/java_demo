@@ -18,7 +18,38 @@ public class ExepHand {
         // //finallly has to be with just afterb try catch or just try 
 
         //checked exception 
-FileReader fr=null;
+//         A checked exception is an exception that is checked at compile time by the compiler.
+
+// 👉 The compiler forces you to handle it using:
+// IOException
+
+// FileNotFoundException
+
+// SQLException
+
+// ParseException
+
+// ClassNotFoundException
+
+// InterruptedException
+
+
+// Examples of Unchecked Exceptions
+
+// NullPointerException
+
+// ArithmeticException
+
+// ArrayIndexOutOfBoundsException
+
+// NumberFormatException
+
+// IllegalArgumentException
+
+// IllegalStateException
+
+
+
         try {
     fr = new FileReader("abc.txt");
     var value=fr.read();

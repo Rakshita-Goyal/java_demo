@@ -31,6 +31,9 @@ abstract class Animal{
 }
 class Dog extends Animal{
 
+Dog(){
+System.out.println("dog constructor");
+}
 void sound(){
     System.out.println("dog makes sound");
 }

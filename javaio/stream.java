@@ -79,3 +79,10 @@ public class stream {
 
     }
 }
+
+
+// What is BufferedReader?
+
+// ➡ Reads a full line at once
+// ➡ Faster than FileReader
+// ➡ Uses internal buffer (memory)

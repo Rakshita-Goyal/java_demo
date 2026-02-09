@@ -262,3 +262,91 @@ while (its.hasPrevious()) System.out.println(its.previous());
 
 }
 }
+
+
+
+// LIST (ordered, duplicates allowed)
+// 🔹 Properties of List
+// Maintains insertion order
+// Allows duplicate elements
+// Access using index
+
+// ArrayList
+// Dynamic array
+// Fast random access
+// Slow insertion/deletion in middle
+
+// LinkedList
+// Doubly linked list
+// Fast insertion/deletion
+// Slower access
+
+// Vector
+// Same as ArrayList but thread-safe
+// Slower
+
+// Stack (LIFO)
+// Last In First Out
+
+// 2. SET (no duplicates)
+// 🔹 Properties
+// No duplicates
+// No index
+// Mostly unordered
+
+// HashSet
+// Unordered
+// Fast
+
+// LinkedHashSet
+// Maintains insertion order
+
+// TreeSet
+// Sorted automatically
+
+// 3. QUEUE (FIFO)
+// 🔹 Properties
+// First In First Out
+// Used in scheduling
+
+// PriorityQueue
+// Smallest element first
+// Queue<Integer> q = new PriorityQueue<>();
+
+// ArrayDeque (Double-ended queue)
+// Deque<String> dq = new ArrayDeque<>();
+
+
+// MAP (key-value pair)
+// 🔹 Properties
+// Stores key-value
+// Keys are unique
+// Values can repeat
+
+// ✅ Types of Map
+// HashMap
+// Unordered
+// Fast
+
+// LinkedHashMap
+// Maintains insertion order
+
+// TreeMap
+// Sorted by key
+
+// Hashtable
+// Thread-safe
+// No null key/value
+// Hashtable<Integer,String> ht = new Hashtable<>();
+
+// . ITERATORS
+// Used to traverse collections.
+// ✅ Types of Iterators
+// 1️⃣ Iterator
+// Forward only
+
+// ListIterator
+// Forward + backward
+// ListIterator<String> it = list.listIterator();
+
+

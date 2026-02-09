@@ -48,3 +48,25 @@ t3.setPriority(Thread.NORM_PRIORITY); // 5
 }
 
 // Thread class is used to create a thread by extending it and overriding its run() method
+
+
+// start() vs run()
+// start()	run()
+// Creates new thread	No new thread
+// Calls run() internally	Normal method
+// Multithreading
+
+
+// join()
+
+// ➡ Makes main thread wait until another thread finishes.
+
+
+// | Constant      | Value |
+// | ------------- | ----- |
+// | MIN_PRIORITY  | 1     |
+// | NORM_PRIORITY | 5     |
+// | MAX_PRIORITY  | 10    |
+
+
+
